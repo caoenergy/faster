@@ -1,8 +1,18 @@
 ## faster
 
-获取 `github` 、`docker hub` 加速地址 以及 拉取docker镜像
+Faster 是一个极简命令行工具; 用于获取 GitHub | Docker 加速访问地址、另外可直接拉取 Docker 镜像
 
-可用命令:
-1. `faster` 或`faster github` : 获取github加速地址
-2. `faster docker` : 获取docker加速地址
-3. `faster pull xxx:v1` :  拉取docker镜像
+```
+Usage:
+  faster [command]
+
+Available Commands:
+  docker      获取 Docker 加速访问地址
+  github      获取 GitHub 加速访问地址
+  pull        拉取 Docker 镜像
+
+Flags:
+  -h, --help   help for faster
+
+Use "faster [command] --help" for more information about a command.
+```
