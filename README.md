@@ -25,3 +25,12 @@ GLOBAL OPTIONS:
    --help, -h     show help
    --version, -v  print the version
 ```
+
+```
+faster github  				   ## 获取 github 加速地址
+faster github download xxx 	## 下载 github 上的文件
+faster github clone xxx    	## 克隆 github 上的仓库
+
+faster docker				      ## 获取 docker 加速地址
+faster pull xxx				   ## 拉取 docker 镜像
+```
